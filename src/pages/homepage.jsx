@@ -1,5 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import avatarImg from '../images/avatar/avatar 1.jpeg';
+import bidwiseCard from '../images/projects/bidwise/card.png';
+import movieAppCard from '../images/projects/movie app/card.png';
+import shesafeCard from '../images/projects/shesafe/card.png';
 
 const Homepage = ({ isDark }) => {
   return (
@@ -52,7 +56,7 @@ const Homepage = ({ isDark }) => {
               <div className="w-80 h-80 bg-gradient-to-br from-blue-400 to-purple-600 rounded-full mx-auto animate-pulse"></div>
               <div className="absolute inset-0 w-80 h-80 bg-gradient-to-br from-green-400 to-blue-600 rounded-full mx-auto animate-rotateGlow opacity-50"></div>
               <div className="absolute inset-0 flex items-center justify-center">
-                <img src="./images/avatar/avatar 1.jpeg" alt="Avatar" className="w-80 h-80 rounded-full object-cover" />
+                <img src={avatarImg} alt="Avatar" className="w-80 h-80 rounded-full object-cover" />
               </div>
             </div>
           </div>
@@ -65,19 +69,19 @@ const Homepage = ({ isDark }) => {
                 {
                   title: 'BidWise',
                   desc: 'An auction platform that allows users to create, bid on, and manage auction items. Built with a Node.js + Express backend and React frontend.',
-                  img: './images/projects/bidwise/card.png',
+                  img: bidwiseCard,
                   github: 'https://github.com/Anandhu9255/BidWise.git'
                 },
                 {
                   title: 'Movie App',
                   desc: 'A full-stack movie management app where users can submit and manage movies while admins handle approvals. Includes authentication and image uploads.',
-                  img: './images/projects/movie app/card.png',
+                  img: movieAppCard,
                   github: 'https://github.com/Anandhu9255/Moviee-Hubb.git'
                 },
                 {
                   title: 'SheSafe',
                   desc: 'A women\'s safety and emergency management platform that connects users with emergency contacts and police, featuring complaint management and live chat.',
-                  img: './images/projects/shesafe/card.png',
+                  img: shesafeCard,
                   github: 'https://github.com/Anandhu9255/Project-SheSafe.git'
                 }
               ].map((project, index) => (

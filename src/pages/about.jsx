@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Navbar from '../components/Navbar';
+import avatarImg from '../images/avatar/avatar 1.jpeg';
 
 const About = ({ isDark }) => {
   return (
@@ -39,7 +40,7 @@ const About = ({ isDark }) => {
               <div className="w-80 h-80 bg-gradient-to-br from-blue-400 to-purple-600 rounded-full mx-auto animate-pulse"></div>
               <div className="absolute inset-0 w-80 h-80 bg-gradient-to-br from-green-400 to-blue-600 rounded-full mx-auto animate-rotateGlow opacity-50"></div>
               <div className="absolute inset-0 flex items-center justify-center">
-                <img src="./images/avatar/avatar 1.jpeg" alt="Avatar" className="w-80 h-80 rounded-full object-cover" />
+                <img src={avatarImg} alt="Avatar" className="w-80 h-80 rounded-full object-cover" />
               </div>
             </div>
             <div className="space-y-6 animate-slideInRight">

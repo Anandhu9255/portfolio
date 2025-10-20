@@ -1,5 +1,12 @@
-# TODO: Update project.jsx with images
+# TODO: Fix Image Loading in Homepage and About Page
 
-- [ ] Import all card.png and sample images at the top of src/pages/project.jsx
-- [ ] Update the projects array: set 'img' to imported card image and add 'sampleImages' array for each project
-- [ ] Modify the modal to display a responsive grid of sample images instead of a single image
+- [x] Import avatar image from '../images/avatar/avatar 1.jpeg'
+- [x] Import BidWise card image from '../images/projects/bidwise/card.png'
+- [x] Import Movie App card image from '../images/projects/movie app/card.png'
+- [x] Import SheSafe card image from '../images/projects/shesafe/card.png'
+- [x] Update avatar img src in hero section
+- [x] Update BidWise project img src
+- [x] Update Movie App project img src
+- [x] Update SheSafe project img src
+- [x] Fix avatar image in about page
+- [ ] Run the app to verify images load
