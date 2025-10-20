@@ -47,7 +47,7 @@ const Homepage = ({ isDark }) => {
                 <Link to="/about" className="bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white px-8 py-3 rounded-full font-semibold transition-all duration-300 inline-block transform hover:scale-105 hover:shadow-lg animate-pulse">
                   Read More
                 </Link>
-                <a href="/src/images/resume/Anandhu_Anil_Kumar-cv(2).pdf" download="Anandhu_Anil_Kumar_Resume.pdf" className="bg-gradient-to-r from-green-500 to-teal-600 hover:from-green-600 hover:to-teal-700 text-white px-8 py-3 rounded-full font-semibold transition-all duration-300 inline-block transform hover:scale-105 hover:shadow-lg animate-pulse">
+                <a href="/Anandhu_Anil_Kumar-cv(2).pdf" download="Anandhu_Anil_Kumar_Resume.pdf" className="bg-gradient-to-r from-green-500 to-teal-600 hover:from-green-600 hover:to-teal-700 text-white px-8 py-3 rounded-full font-semibold transition-all duration-300 inline-block transform hover:scale-105 hover:shadow-lg animate-pulse">
                   Download Resume
                 </a>
               </div>
