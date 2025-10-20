@@ -52,7 +52,7 @@ const Homepage = ({ isDark }) => {
               <div className="w-80 h-80 bg-gradient-to-br from-blue-400 to-purple-600 rounded-full mx-auto animate-pulse"></div>
               <div className="absolute inset-0 w-80 h-80 bg-gradient-to-br from-green-400 to-blue-600 rounded-full mx-auto animate-rotateGlow opacity-50"></div>
               <div className="absolute inset-0 flex items-center justify-center">
-                <img src="/src/images/avatar/avatar 1.jpeg" alt="Avatar" className="w-80 h-80 rounded-full object-cover" />
+                <img src="./images/avatar/avatar 1.jpeg" alt="Avatar" className="w-80 h-80 rounded-full object-cover" />
               </div>
             </div>
           </div>
@@ -65,19 +65,19 @@ const Homepage = ({ isDark }) => {
                 {
                   title: 'BidWise',
                   desc: 'An auction platform that allows users to create, bid on, and manage auction items. Built with a Node.js + Express backend and React frontend.',
-                  img: '/src/images/projects/bidwise/card.png',
+                  img: './images/projects/bidwise/card.png',
                   github: 'https://github.com/Anandhu9255/BidWise.git'
                 },
                 {
                   title: 'Movie App',
                   desc: 'A full-stack movie management app where users can submit and manage movies while admins handle approvals. Includes authentication and image uploads.',
-                  img: '/src/images/projects/movie app/card.png',
+                  img: './images/projects/movie app/card.png',
                   github: 'https://github.com/Anandhu9255/Moviee-Hubb.git'
                 },
                 {
                   title: 'SheSafe',
                   desc: 'A women\'s safety and emergency management platform that connects users with emergency contacts and police, featuring complaint management and live chat.',
-                  img: '/src/images/projects/shesafe/card.png',
+                  img: './images/projects/shesafe/card.png',
                   github: 'https://github.com/Anandhu9255/Project-SheSafe.git'
                 }
               ].map((project, index) => (
